@@ -1,0 +1,31 @@
+# Secrets - NEVER upload these!
+.env
+/.env
+.env.local                      # Added for React local environment variables
+.env.development.local          # Added for React development environment variables
+.env.test.local                 # Added for React test environment variables
+.env.production.local           # Added for React production environment variables
+
+# Virtual environments
+ienv/
+venv/
+env/
+
+# Dependencies
+node_modules/                   # Already present, ignores dependencies for both Python and Node.js
+
+# Frontend Build and Artifacts
+/build                          # Added for React production build output
+/dist                           # Commonly used for build output
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/coverage                       # Added for testing coverage reports
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
