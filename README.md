@@ -195,22 +195,6 @@ CREATE TRIGGER update_books_updated_at
 ## 📁 Project Structure
 
 ```
-book-tracker/
-├── backend/
-│   ├── main.py              # FastAPI application
-│   ├── .env                 # Environment variables (create this)
-│   ├── .gitignore
-│   └── ienv/                # Virtual environment
-│
-└── frontend/
-    ├── src/
-    │   ├── App.js           # Main React component
-    │   ├── App.css          # Styling
-    │   └── index.js
-    ├── public/
-    ├── package.json
-    └── node_modules/
-
 book-tracking-app/
 ├── README.md                    ← Copy from artifact
 ├── .gitignore                   ← Copy from artifact
