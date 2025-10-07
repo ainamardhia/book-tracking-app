@@ -58,8 +58,8 @@ A full-stack SaaS application that helps you track your reading journey with AI-
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/book-tracker.git
-cd book-tracker
+git clone https://github.com/ainamardhia/book-tracking-app.git
+cd book-tracking-app
 ```
 
 ### 2. Backend Setup
@@ -210,9 +210,25 @@ book-tracker/
     ├── public/
     ├── package.json
     └── node_modules/
-```
 
-## 🔑 Environment Variables
+book-tracking-app/
+├── README.md                    ← Copy from artifact
+├── .gitignore                   ← Copy from artifact
+│
+├── backend/
+│   ├── main.py                  ← Your FastAPI code
+│   ├── requirements.txt         ← Copy from artifact
+│   ├── .env                     ← Your credentials (already created)
+│   └── ienv/
+│
+└── frontend/
+    ├── src/
+    │   ├── App.js               ← Your React code
+    │   ├── App.css              ← Your CSS
+    │   └── index.js
+    ├── package.json
+    └── README.md (optional - React's default)
+```
 
 ## 📖 API Endpoints
 
@@ -236,6 +252,10 @@ book-tracker/
 - `GET /api/recommendations` - Get AI book recommendations
 
 ## 🎨 Screenshots
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/55603e3b-7951-4424-aa17-ff226e98851c" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cca3e492-5659-4640-839b-60c0843005ef" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5c13fa4d-c824-4f14-8c59-71622481d959" />
+
 
 ### Login Page
 
@@ -317,9 +337,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Aina Abdul Hadi - ainaabdulhadi@gmail.com
 
-Project Link: [https://github.com/yourusername/book-tracker](https://github.com/yourusername/book-tracker)
+Project Link: [https://github.com/ainamardhia/book-tracking-app](https://github.com/ainamardhia/book-tracking-app)
 
 ---
 
