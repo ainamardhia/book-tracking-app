@@ -58,8 +58,8 @@ A full-stack SaaS application that helps you track your reading journey with AI-
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/book-tracker.git
-cd book-tracker
+git clone https://github.com/ainamardhia/book-tracking-app.git
+cd book-tracking-app
 ```
 
 ### 2. Backend Setup
@@ -195,24 +195,24 @@ CREATE TRIGGER update_books_updated_at
 ## 📁 Project Structure
 
 ```
-book-tracker/
+book-tracking-app/
+├── README.md                    
+├── .gitignore                   
+│
 ├── backend/
-│   ├── main.py              # FastAPI application
-│   ├── .env                 # Environment variables (create this)
-│   ├── .gitignore
-│   └── ienv/                # Virtual environment
+│   ├── main.py                  ← Your FastAPI code
+│   ├── requirements.txt        
+│   ├── .env                     ← Your credentials 
+│   └── ienv/
 │
 └── frontend/
     ├── src/
-    │   ├── App.js           # Main React component
-    │   ├── App.css          # Styling
+    │   ├── App.js               ← Your React code
+    │   ├── App.css              ← Your CSS
     │   └── index.js
-    ├── public/
     ├── package.json
-    └── node_modules/
+    └── README.md (optional - React's default)
 ```
-
-## 🔑 Environment Variables
 
 ## 📖 API Endpoints
 
@@ -238,10 +238,12 @@ book-tracker/
 ## 🎨 Screenshots
 
 ### Login Page
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/55603e3b-7951-4424-aa17-ff226e98851c" />
 
 Beautiful gradient authentication page with form validation.
 
 ### Dashboard
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cca3e492-5659-4640-839b-60c0843005ef" />
 
 - Statistics cards showing total books, completed, reading, want to read, pages read, and average rating
 - Filter buttons to view books by status
@@ -249,6 +251,7 @@ Beautiful gradient authentication page with form validation.
 - Add Book button
 
 ### Book Cards
+<img width="367" height="228" alt="image" src="https://github.com/user-attachments/assets/65e3073a-7830-4770-ae35-0ec8fa90f734" />
 
 - Book title and author
 - Status badge (color-coded)
@@ -258,6 +261,7 @@ Beautiful gradient authentication page with form validation.
 - Edit and delete actions
 
 ### AI Recommendations Modal
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5c13fa4d-c824-4f14-8c59-71622481d959" />
 
 - Personalized book suggestions
 - Numbered recommendations (1-5)
@@ -317,9 +321,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Aina Abdul Hadi - ainaabdulhadi@gmail.com
 
-Project Link: [https://github.com/yourusername/book-tracker](https://github.com/yourusername/book-tracker)
+Project Link: [https://github.com/ainamardhia/book-tracking-app](https://github.com/ainamardhia/book-tracking-app)
 
 ---
 
