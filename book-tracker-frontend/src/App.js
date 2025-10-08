@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BookOpen, Plus, Trash2, Edit2, LogOut, X, Sparkles } from 'lucide-react';
 import './App.css';
 
-const API_URL = 'https://book-tracking-app-1byo.onrender.com';
+const API_URL = 'https://book-tracking-app-1byo.onrender.com/api';
 
 function BookTracker() {
   const [user, setUser] = useState(null);
