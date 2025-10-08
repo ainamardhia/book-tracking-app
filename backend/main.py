@@ -17,8 +17,7 @@ app = FastAPI(title="Book Tracker API with Supabase & AI")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://book-tracking-app-1byo.onrender.com/docs",
-                   "http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
